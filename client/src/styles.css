@@ -1,0 +1,64 @@
+.call-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+video {
+  width: 41%;
+  margin: 0 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.answer-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.answer-button {
+  margin: 0 10px;
+  padding: 10px 200px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.transcription-container {
+  margin: 20px;
+  text-align: left;
+}
+
+input {
+  width: 50%;
+  height: 10%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  color: black;
+}
