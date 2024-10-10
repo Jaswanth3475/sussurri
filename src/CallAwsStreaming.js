@@ -492,8 +492,8 @@ const CallAwsStreaming = () => {
             const transcribeClient = new TranscribeStreamingClient({
                 region: 'us-east-1',
                 credentials: {
-                    accessKeyId: "AKIA6GBMEWKGNJPWEPIL",
-                    secretAccessKey: "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",
+                    accessKeyId: "",
+                    secretAccessKey: "",
                 },
             });
             console.log("transcribeClient:::", transcribeClient)
